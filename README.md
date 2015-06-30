@@ -4,6 +4,9 @@ Basic router app listens on port xxx and redirects based on the url to specific 
 
 The nodejs apps via emeraldjava
 
+## Proxy App
+A [node-http-proxy|https://github.com/nodejitsu/node-http-proxy] will sit at the route of the pi2 and redirect to other
+apps based on the url path.
 
 ## Spotify 
 
@@ -14,3 +17,6 @@ https://developer.spotify.com/web-api/
 
 https://github.com/TooTallNate/node-spotify-web
 http://www.node-spotify.com/
+
+## NPM Setup
+https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md
