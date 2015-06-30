@@ -1,0 +1,11 @@
+{ "name": "emeraldjava-nodejs"
+, "version": "0.0.1"
+, "description": "emeraldjava-nodejs"
+, "homepage": "https://github.com/emeraldjava/emeraldjava-nodejs"
+, "repository":
+{ "type": "git"
+, "url": "https://github.com/emeraldjava/emeraldjava-nodejs.git" }
+, "dependencies": {}
+, "devDependencies": {}
+, "author": "emeraldjava"
+}
