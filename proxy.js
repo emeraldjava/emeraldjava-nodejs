@@ -9,6 +9,14 @@ var proxy = httpProxy.createServer({});
 // http://stackoverflow.com/questions/25896608/nodejs-routing-table-using-http-proxy
 var httpServer = http.createServer(function(req, res) {
 
+    // ignore favicon https://gist.github.com/kentbrew/763822
+    if (req.url === '/favicon.ico') {
+        res.writeHead(200, {'Content-Type': 'image/x-icon'} );
+        res.end();
+        //console.log('favicon requested');
+        return;
+    }
+
     var hostname = req.headers.host.split(":")[0];
     var pathname = url.parse(req.url).pathname;
 
