@@ -1,0 +1,17 @@
+{
+  "name": "agegrade",
+  "version": "0.0.1",
+  "description": "An athletic age grade calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agegrade"
+  ],
+  "author": "emeraldjava",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.0"
+  }
+}
