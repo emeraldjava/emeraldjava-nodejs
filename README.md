@@ -4,11 +4,13 @@ Basic router app listens on port xxx and redirects based on the url to specific 
 
 The nodejs apps via emeraldjava
 
+http://emeraldjava.noip.me:9000/
+
 ## Proxy App
 A [node-http-proxy|https://github.com/nodejitsu/node-http-proxy] will sit at the route of the pi2 and redirect to other
 apps based on the url path.
 
-## Spotify 
+## Spotify
 
 Load an itunes xml file and get the rating of each app.
 - use mp3 tag library to scan and extract file details
@@ -20,3 +22,6 @@ http://www.node-spotify.com/
 
 ## NPM Setup
 https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md
+
+## Node Forever
+sudo npm install -g forever
