@@ -1,5 +1,13 @@
 # emeraldjava-nodejs
 
+## 14-07-2023
+
+- Add 'angular-material' module.
+- Add 'workspace' config to the root package.json to enable multi-module builds.
+- 
+
+## Router App
+
 Basic router app listens on port xxx and redirects based on the url to specific apps
 
 The nodejs apps via emeraldjava
